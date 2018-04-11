@@ -21,7 +21,7 @@ public class LoginAction extends ActionSupport{
 
 		LoginDTOList = dao.select(username, password);
 
-		if(this.username.equals(LoginDTOList.get(0).getUsername()) && this.password.equals(LoginDTOList.get(0))){
+		if(this.username.equals(LoginDTOList.get(0).getUsername()) && this.password.equals(LoginDTOList.get(0).getPassword())){
 			ret = SUCCESS;
 		}else{
 			ret = ERROR;

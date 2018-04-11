@@ -9,7 +9,6 @@ public class HelloStrutsAction extends ActionSupport {
 private List<HelloStrutsDTO> HelloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
 public String execute() {
 
-	System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 String ret=ERROR;
 HelloStrutsDAO dao=new HelloStrutsDAO();
 HelloStrutsDTOList=dao.select();

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.internousdev.webproj4.dto.InquiryDTO;
-import com.internousdev.webproj4.util.DBConnector;;
+import com.internousdev.webproj4.util.DBConnector;
 
 public class InquiryCompleteDAO {
 

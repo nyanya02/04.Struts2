@@ -23,8 +23,8 @@
 
 		<s:iterator value="helloStrutsDTOList">
 			<tr>
-				<td><s:property value="userid"/></td>
-				<td><s:property value="userName"/></td>
+				<td><s:property value="userID"/></td>
+				<td><s:property value="username"/></td>
 				<td><s:property value="password"/></td>
 				<td><s:property value="result"/></td>
 			</tr>

@@ -24,15 +24,15 @@
 		<tr>
 			<td><s:property value="name"/></td>
 
-			<s:if test='qtye=="company"'>
+			<s:if test='qtype=="company"'>
 				<td>会社について</td>
 			</s:if>
 
-			<s:if test='qtye=="product"'>
+			<s:if test='qtype=="product"'>
 				<td>製品について</td>
 			</s:if>
 
-			<s:if test='qtye=="support"'>
+			<s:if test='qtype=="support"'>
 				<td>アフターサポートについて</td>
 			</s:if>
 

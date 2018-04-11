@@ -14,7 +14,7 @@
 <br>
 <h3>ログインできません</h3>
 
-<s:if test='(loginDTOList.get(0).username)=="該当なし'>
+<s:if test='(loginDTOList.get(0).username)=="該当なし"'>
 該当者はいませんでした
 </s:if>
 
